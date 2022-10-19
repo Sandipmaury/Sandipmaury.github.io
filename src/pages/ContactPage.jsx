@@ -25,11 +25,14 @@ export const ContactPage = () => {
           <Box fontSize="2rem" className="material-symbols-outlined">
             phone
           </Box>
-          <Text fontSize="30px">+917011096279</Text>
+          <Text fontSize={["15px", "17px", "20px", "30px"]}>+917011096279</Text>
         </Flex>
         <Flex gap="10px" alignItems="center" p="3px 5px" _hover={hoverEffect}>
-          <Icon fontSize="2rem" as={BsWhatsapp} />
-          <Text fontSize="30px">+917011096279</Text>
+          <Icon
+            fontSize={["1.5rem", "1.5rem", "1.6rem", "2rem"]}
+            as={BsWhatsapp}
+          />
+          <Text fontSize={["15px", "17px", "20px", "30px"]}>+917011096279</Text>
         </Flex>
         <Link
           target="_blank"
@@ -37,8 +40,11 @@ export const ContactPage = () => {
           href="https://www.linkedin.com/in/sandip-maurya-003066235/"
         >
           <Flex gap="10px" alignItems="center" p="3px 5px" _hover={hoverEffect}>
-            <Icon fontSize="2rem" as={BsLinkedin} />
-            <Text fontSize="30px">Linkedin</Text>
+            <Icon
+              fontSize={["1.5rem", "1.5rem", "1.6rem", "2rem"]}
+              as={BsLinkedin}
+            />
+            <Text fontSize={["15px", "17px", "20px", "30px"]}>Linkedin</Text>
           </Flex>
         </Link>
         <Flex
@@ -50,10 +56,15 @@ export const ContactPage = () => {
           }
           _hover={hoverEffect}
         >
-          <Box fontSize="2rem" className="material-symbols-outlined">
+          <Box
+            fontSize={["1.5rem", "1.5rem", "1.6rem", "2rem"]}
+            className="material-symbols-outlined"
+          >
             mail
           </Box>
-          <Text fontSize="30px">sandipmaurya7619@gmail.com</Text>
+          <Text fontSize={["15px", "17px", "20px", "30px"]}>
+            sandipmaurya7619@gmail.com
+          </Text>
         </Flex>
       </Flex>
     </Stack>
