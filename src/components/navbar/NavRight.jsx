@@ -2,6 +2,7 @@ import React from "react";
 import { Flex, Stack, Text, useColorMode } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 import { navLinks } from "../../utils/Constants";
+import { ResumeDownload } from "../ResumeDownload";
 
 export const NavRight = ({ onClose }) => {
   const { colorMode } = useColorMode();
@@ -52,6 +53,7 @@ export const NavRight = ({ onClose }) => {
           }
         </NavLink>
       ))}
+      <ResumeDownload text={"Resume"} />
     </Stack>
   );
 };

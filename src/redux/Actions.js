@@ -16,11 +16,11 @@ const isLodingFailed = {
   type: type.GET_DATA_FAILURE,
 };
 
-export const getData = (payload) => async (dispatch) => {
+export const getData = () => async (dispatch) => {
   dispatch(isDataLoding);
   const source = axios.CancelToken.source();
   return await axios
-    .get(`https://633adc9e471b8c395576dc00.mockapi.io/${payload}`, {
+    .get(`https://633adc9e471b8c395576dc00.mockapi.io/projects`, {
       cancelToken: source.token,
     })
     .then(({ data }) => {

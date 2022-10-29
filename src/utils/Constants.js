@@ -9,7 +9,6 @@ export const navLinks = [
     icon: "construction",
     link: "/teckstacks",
   },
-  { title: "Skills", icon: "draw", link: "/skills" },
   {
     title: "Projects",
     icon: "description",

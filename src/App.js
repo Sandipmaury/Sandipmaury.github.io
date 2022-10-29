@@ -1,6 +1,5 @@
 import { Box, Stack, useColorMode } from "@chakra-ui/react";
 import Footer from "./components/Footer";
-import "./App.css";
 import { Links } from "./components/Links";
 import { AllRoutes } from "./pages/AllRoutes";
 import Navbar from "./components/navbar/Navbar";
