@@ -19,7 +19,7 @@ import React from "react";
 
 export const TeckStacks = () => {
   return (
-    <Box w="100%" bg="#070640" h="auto" zIndex={3}>
+    <Box id="teckstacks" w="100%" bg="#070640" h="auto" zIndex={3}>
       <Box py="30px" color="#ffffff" w="100%" maxWidth="1200px" m="auto">
         <Text textAlign="center" fontWeight="medium" fontSize={30} mb={30}>
           Teck Stacks

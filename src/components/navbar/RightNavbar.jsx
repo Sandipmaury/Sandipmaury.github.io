@@ -3,11 +3,11 @@ import React from "react";
 import { NavOnOtherDevice } from "./NavOnOtherDevice";
 import { NavOnSmallDevice } from "./NavOnSmallDevice";
 
-export const RightNavbar = () => {
+export const RightNavbar = ({ activeNav, setActiveNav }) => {
   return (
     <Box>
-      <NavOnOtherDevice />
-      <NavOnSmallDevice />
+      <NavOnOtherDevice activeNav={activeNav} setActiveNav={setActiveNav} />
+      <NavOnSmallDevice activeNav={activeNav} setActiveNav={setActiveNav} />
     </Box>
   );
 };

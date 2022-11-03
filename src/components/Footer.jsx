@@ -1,4 +1,4 @@
-import { Box, Flex, Icon, Text } from "@chakra-ui/react";
+import { Box, Flex, Text } from "@chakra-ui/react";
 import { BsHeartFill } from "react-icons/bs";
 import React from "react";
 
@@ -16,7 +16,7 @@ export const Footer = () => {
         color="#ffffff"
       >
         <Text>This is bulid by me with</Text>
-        <Icon as={BsHeartFill} />
+        <BsHeartFill />
       </Flex>
     </Box>
   );

@@ -5,7 +5,7 @@ import { OtherWayOfContact } from "./OtherWayOfContact";
 
 export const Contact = () => {
   return (
-    <Box w="100%" h="auto" bg="#070640" zIndex={3}>
+    <Box id="contact" w="100%" h="auto" bg="#070640" zIndex={3}>
       <Box w="100%" maxWidth="1200px" m="auto" py="30px" color="#ffffff">
         <Text textAlign="center" fontWeight="medium" fontSize={30} mb={30}>
           Contact me

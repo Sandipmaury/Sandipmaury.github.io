@@ -5,6 +5,7 @@ import { RightNavbar } from "./RightNavbar";
 
 export const Navbar = () => {
   const [navbar, updateNavbar] = useState(false);
+  const [activeNav, setActiveNav] = useState("#");
 
   window.addEventListener("scroll", () => {
     if (window.scrollY >= 20) {
@@ -16,6 +17,7 @@ export const Navbar = () => {
 
   return (
     <Box
+      id="home"
       w="100%"
       h="auto"
       bg="#0c0b48"
@@ -33,8 +35,8 @@ export const Navbar = () => {
         m="auto"
         h="70px"
       >
-        <Logo />
-        <RightNavbar />
+        <Logo activeNav={activeNav} setActiveNav={setActiveNav} />
+        <RightNavbar activeNav={activeNav} setActiveNav={setActiveNav} />
       </Flex>
     </Box>
   );

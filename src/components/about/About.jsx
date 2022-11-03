@@ -6,7 +6,7 @@ import { Resume } from "./Resume";
 
 export const About = () => {
   return (
-    <Box w="100%" h="auto" bg="#0c0b48" zIndex={3}>
+    <Box id="about" w="100%" h="auto" bg="#0c0b48" zIndex={3}>
       <Flex
         w="100%"
         maxWidth="1200px"
