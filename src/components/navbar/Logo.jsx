@@ -7,6 +7,7 @@ export const Logo = ({ activeNav, setActiveNav }) => {
       href="#about"
       className={activeNav === "#home" ? "active" : ""}
       onClick={() => setActiveNav("#home")}
+      _hover={{ textDecoration: "none" }}
     >
       <Box fontSize={25} fontWeight="bold" color="#fe3e57" bg="#0c0b48">
         S@ndip/
