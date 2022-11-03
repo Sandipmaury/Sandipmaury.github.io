@@ -1,20 +1,23 @@
-import { Icon, Stack, Text } from "@chakra-ui/react";
-import React from "react";
+import { Box, Flex, Icon, Text } from "@chakra-ui/react";
 import { BsHeartFill } from "react-icons/bs";
+import React from "react";
 
-function Footer() {
+export const Footer = () => {
   return (
-    <Stack
-      color="lightGray"
-      direction="row"
-      w="100%"
-      justifyContent="center"
-      alignItems="center"
-    >
-      <Text>This is build by me with</Text>
-      <Icon color="lightGray" as={BsHeartFill} />
-    </Stack>
+    <Box w="100%" bg="#0c0b48" h="auto" zIndex={3}>
+      <Flex
+        w="100%"
+        maxWidth="1200px"
+        m="auto"
+        h="50px"
+        alignItems="center"
+        justifyContent="center"
+        gap="10px"
+        color="#ffffff"
+      >
+        <Text>This is bulid by me with</Text>
+        <Icon as={BsHeartFill} />
+      </Flex>
+    </Box>
   );
-}
-
-export default Footer;
+};

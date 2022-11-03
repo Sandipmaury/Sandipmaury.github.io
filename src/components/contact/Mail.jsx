@@ -8,7 +8,7 @@ import {
   useToast,
 } from "@chakra-ui/react";
 
-export const Email = () => {
+export const Mail = () => {
   const form = useRef();
   const toast = useToast();
 
@@ -25,7 +25,7 @@ export const Email = () => {
       .then((result) => {
         toast({
           title: "Successfull!",
-          description: "Your send to Sandip Maurya successfully!",
+          description: "Your message send to Sandip Maurya successfully!",
           status: "success",
           duration: 3000,
           isClosable: true,
@@ -34,8 +34,7 @@ export const Email = () => {
       .catch(() => {
         toast({
           title: "Failed",
-          description:
-            "Something went wrong. Please try on below email address.",
+          description: "Something went wrong. Please try on email address.",
           status: "error",
           duration: 3000,
           isClosable: true,
@@ -59,7 +58,7 @@ export const Email = () => {
         <Textarea name="message" placeholder="Enter your message" />
       </FormControl>
       <Input
-        _hover={{ backgroundColor: "#e8f0fe" }}
+        _hover={{ backgroundColor: "#fe3e57" }}
         cursor="pointer"
         type="submit"
         value="Send"

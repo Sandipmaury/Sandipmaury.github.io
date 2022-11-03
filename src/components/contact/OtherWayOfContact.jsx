@@ -1,33 +1,33 @@
 import React from "react";
-import { Box, Flex, Grid, Icon, Link, Text } from "@chakra-ui/react";
-import { BsWhatsapp, BsLinkedin } from "react-icons/bs";
+import { Box, Flex, Icon, Link, Text } from "@chakra-ui/react";
+import { BsWhatsapp, BsLinkedin, BsFillTelephoneFill } from "react-icons/bs";
+import { HiMail } from "react-icons/hi";
 
-export const Contact = () => {
+export const OtherWayOfContact = () => {
   const hoverEffect = {
-    backgroundColor: "#f37921",
+    backgroundColor: "#fe3e57",
     color: "white",
     transition: "0.3s",
     cursor: "pointer",
     boxShadow: "md",
   };
+
   return (
-    <Grid
-      templateColumns={[
-        "repeat(1, 1fr)",
-        "repeat(2, 1fr)",
-        "repeat(2, 1fr)",
-        "repeat(2, 1fr)",
-      ]}
-      gap="20px"
-      flexWrap="wrap"
-    >
+    <Box py="20px">
       <Flex gap="10px" alignItems="center" p="3px 5px" _hover={hoverEffect}>
-        <Box fontSize="20px" className="material-symbols-outlined">
-          phone
-        </Box>
+        <Icon
+          fontSize={["15px", "17px", "20px", "20px"]}
+          as={BsFillTelephoneFill}
+        />
         <Text fontSize={["15px", "17px", "20px", "20px"]}>+917011096279</Text>
       </Flex>
-      <Flex gap="10px" alignItems="center" p="3px 5px" _hover={hoverEffect}>
+      <Flex
+        my="30px"
+        gap="10px"
+        alignItems="center"
+        p="3px 5px"
+        _hover={hoverEffect}
+      >
         <Icon fontSize={["15px", "17px", "20px", "20px"]} as={BsWhatsapp} />
         <Text fontSize={["15px", "17px", "20px", "20px"]}>+917011096279</Text>
       </Flex>
@@ -42,22 +42,18 @@ export const Contact = () => {
         </Flex>
       </Link>
       <Flex
+        my="30px"
         gap="10px"
         alignItems="center"
         p="3px 5px"
         onClick={() => (window.location = "mailto:sandipmaurya7619@gmail.com")}
         _hover={hoverEffect}
       >
-        <Box
-          fontSize={["15px", "17px", "20px", "20px"]}
-          className="material-symbols-outlined"
-        >
-          mail
-        </Box>
+        <Icon fontSize={["15px", "17px", "20px", "20px"]} as={HiMail} />
         <Text fontSize={["15px", "17px", "20px", "20px"]}>
           sandipmaurya7619@gmail.com
         </Text>
       </Flex>
-    </Grid>
+    </Box>
   );
 };
