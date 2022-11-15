@@ -24,9 +24,40 @@ export const ProjectCard = ({ item }) => {
               {item?.about}
             </Text>
           }
+
+          <Flex
+            justifyContent={"center"}
+            alignItems={"center"}
+            flexWrap={"wrap"}
+            mt="10px"
+            gap="10px"
+            fontSize={["12px", "12px", "16px", "16px"]}
+            fontWeight={"medium"}
+          >
+            {item?.teckstack?.map((el, index) => {
+              return (
+                <Flex
+                  key={index}
+                  border="1px solid #fe3e57"
+                  rounded={"md"}
+                  px="5px"
+                  alignItems={"center"}
+                  justifyContent={"center"}
+                >
+                  {" "}
+                  {el}{" "}
+                </Flex>
+              );
+            })}
+          </Flex>
         </Box>
 
-        <Flex w="100%" justifyContent="space-between" alignItems="center">
+        <Flex
+          mt="20px"
+          w="100%"
+          justifyContent="space-between"
+          alignItems="center"
+        >
           <Link
             target="_blank"
             href={item?.deployLink}
