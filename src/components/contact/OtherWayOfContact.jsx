@@ -1,6 +1,11 @@
 import React from "react";
 import { Box, Flex, Icon, Link, Text } from "@chakra-ui/react";
-import { BsWhatsapp, BsLinkedin, BsFillTelephoneFill } from "react-icons/bs";
+import {
+  BsWhatsapp,
+  BsLinkedin,
+  BsFillTelephoneFill,
+  BsGithub,
+} from "react-icons/bs";
 import { HiMail } from "react-icons/hi";
 
 export const OtherWayOfContact = () => {
@@ -54,6 +59,16 @@ export const OtherWayOfContact = () => {
           sandipmaurya7619@gmail.com
         </Text>
       </Flex>
+      <Link
+        target="_blank"
+        _hover={{ textDecoration: "none" }}
+        href="https://github.com/Sandipmaury"
+      >
+        <Flex gap="10px" alignItems="center" p="3px 5px" _hover={hoverEffect}>
+          <Icon fontSize={["15px", "17px", "20px", "20px"]} as={BsGithub} />
+          <Text fontSize={["15px", "17px", "20px", "20px"]}>GitHub</Text>
+        </Flex>
+      </Link>
     </Box>
   );
 };
