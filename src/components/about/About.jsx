@@ -33,9 +33,7 @@ export const About = () => {
             <Resume />
           </Button>
         </Flex>
-        <Box flex={1}>
-          <ProfileImage />
-        </Box>
+        <ProfileImage />
       </Flex>
     </Box>
   );
