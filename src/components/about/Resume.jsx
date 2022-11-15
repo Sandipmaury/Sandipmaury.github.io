@@ -5,7 +5,11 @@ import { HiDownload } from "react-icons/hi";
 export const Resume = () => {
   return (
     <Link
-      href="https://drive.google.com/uc?export=download&id=15c-2Mh206I72A7kAmu9qUQIwd-Pln1FQ"
+      onClick={() =>
+        window.open(
+          "https://drive.google.com/uc?export=download&id=15c-2Mh206I72A7kAmu9qUQIwd-Pln1FQ"
+        )
+      }
       download
       style={{ textDecoration: "none" }}
     >

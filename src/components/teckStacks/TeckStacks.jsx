@@ -30,6 +30,12 @@ export const TeckStacks = () => {
             bg="#0c0b48"
             border="1px solid #fe3e57"
             borderRadius="5px"
+            transition={"0.2s"}
+            _hover={{
+              transition: "0.1s",
+              color: "#fe3e57",
+              border: "1px solid #ffffff",
+            }}
           >
             <Icon as={FaHtml5} w="100%" h="70%" borderRadius="5px" />
             <Text textAlign="center" fontSize="1.5rem">
@@ -41,6 +47,11 @@ export const TeckStacks = () => {
             bg="#0c0b48"
             border="1px solid #fe3e57"
             borderRadius="5px"
+            _hover={{
+              transition: "0.1s",
+              color: "#fe3e57",
+              border: "1px solid #ffffff",
+            }}
           >
             <Icon as={FaCss3Alt} w="100%" h="70%" borderRadius="5px" />
             <Text textAlign="center" fontSize="1.5rem">
@@ -52,6 +63,11 @@ export const TeckStacks = () => {
             bg="#0c0b48"
             border="1px solid #fe3e57"
             borderRadius="5px"
+            _hover={{
+              transition: "0.1s",
+              color: "#fe3e57",
+              border: "1px solid #ffffff",
+            }}
           >
             <Icon as={SiJavascript} w="100%" h="70%" borderRadius="5px" />
             <Text textAlign="center" fontSize="1.5rem">
@@ -63,6 +79,11 @@ export const TeckStacks = () => {
             bg="#0c0b48"
             border="1px solid #fe3e57"
             borderRadius="5px"
+            _hover={{
+              transition: "0.1s",
+              color: "#fe3e57",
+              border: "1px solid #ffffff",
+            }}
           >
             <Icon as={FaNodeJs} w="100%" h="70%" borderRadius="5px" />
             <Text textAlign="center" fontSize="1.5rem">
@@ -74,6 +95,11 @@ export const TeckStacks = () => {
             bg="#0c0b48"
             border="1px solid #fe3e57"
             borderRadius="5px"
+            _hover={{
+              transition: "0.1s",
+              color: "#fe3e57",
+              border: "1px solid #ffffff",
+            }}
           >
             <Icon as={FaReact} w="100%" h="70%" borderRadius="5px" />
             <Text textAlign="center" fontSize="1.5rem">
@@ -85,6 +111,11 @@ export const TeckStacks = () => {
             bg="#0c0b48"
             border="1px solid #fe3e57"
             borderRadius="5px"
+            _hover={{
+              transition: "0.1s",
+              color: "#fe3e57",
+              border: "1px solid #ffffff",
+            }}
           >
             <Icon as={SiRedux} w="100%" h="70%" borderRadius="5px" />
             <Text textAlign="center" fontSize="1.5rem">
@@ -96,6 +127,11 @@ export const TeckStacks = () => {
             bg="#0c0b48"
             border="1px solid #fe3e57"
             borderRadius="5px"
+            _hover={{
+              transition: "0.1s",
+              color: "#fe3e57",
+              border: "1px solid #ffffff",
+            }}
           >
             <Icon as={SiChakraui} w="100%" h="70%" borderRadius="5px" />
             <Text textAlign="center" fontSize="1.5rem">
@@ -107,6 +143,11 @@ export const TeckStacks = () => {
             bg="#0c0b48"
             border="1px solid #fe3e57"
             borderRadius="5px"
+            _hover={{
+              transition: "0.1s",
+              color: "#fe3e57",
+              border: "1px solid #ffffff",
+            }}
           >
             <Icon as={BiGitBranch} w="100%" h="70%" borderRadius="5px" />
             <Text textAlign="center" fontSize="1.5rem">
@@ -118,6 +159,11 @@ export const TeckStacks = () => {
             bg="#0c0b48"
             border="1px solid #fe3e57"
             borderRadius="5px"
+            _hover={{
+              transition: "0.1s",
+              color: "#fe3e57",
+              border: "1px solid #ffffff",
+            }}
           >
             <Icon as={FaGithub} w="100%" h="70%" borderRadius="5px" />
             <Text textAlign="center" fontSize="1.5rem">
@@ -129,17 +175,11 @@ export const TeckStacks = () => {
             bg="#0c0b48"
             border="1px solid #fe3e57"
             borderRadius="5px"
-          >
-            <Icon as={SiCypress} w="100%" h="70%" borderRadius="5px" />
-            <Text textAlign="center" fontSize="1.5rem">
-              Cypress
-            </Text>
-          </Box>
-          <Box
-            boxSize="9rem"
-            bg="#0c0b48"
-            border="1px solid #fe3e57"
-            borderRadius="5px"
+            _hover={{
+              transition: "0.1s",
+              color: "#fe3e57",
+              border: "1px solid #ffffff",
+            }}
           >
             <Icon as={SiExpress} w="100%" h="70%" borderRadius="5px" />
             <Text textAlign="center" fontSize="1.5rem">
@@ -151,6 +191,11 @@ export const TeckStacks = () => {
             bg="#0c0b48"
             border="1px solid #fe3e57"
             borderRadius="5px"
+            _hover={{
+              transition: "0.1s",
+              color: "#fe3e57",
+              border: "1px solid #ffffff",
+            }}
           >
             <Icon as={SiMongodb} w="100%" h="70%" borderRadius="5px" />
             <Text textAlign="center" fontSize="1.5rem">
