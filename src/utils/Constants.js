@@ -1,5 +1,3 @@
-export const profileImg = "https://i.im.ge/2022/09/24/19Ck7x.dpk.png";
-
 export const NavLinks = [
   { link: "/about", title: "About" },
   { link: "/teckstacks", title: "Teck Stacks" },
@@ -24,7 +22,7 @@ export const projetArr = [
     ],
     about:
       "This is an food platform from here you can get discount offers on veg food. It was a end-to-end group project and was completed by 5 collaborators in 5 days. Due to the time limit, some functionality is remaining but we have tried our best to complete this project. For more details visit live or code base of this project.",
-    img: "https://i.im.ge/2022/10/02/1WbcEy.sfddsfsdfsdfs.png",
+    img: "https://i.im.ge/2022/11/13/SrtRo1.home2.png",
   },
   {
     deployLink: "https://affable-scissors-7552-psi.vercel.app/",
