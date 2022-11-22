@@ -68,13 +68,4 @@ export const projetArr = [
       "This is a news website. It was an individual project and was completed by me in 5 days. I've used react, and redux chakra UI and for the data, I've used an API here. Due to the time limit, I have built the home page and login page. For more details visit live or code base of this project.",
     img: "https://i.im.ge/2022/09/25/1jdodr.india-today.png",
   },
-  {
-    deployLink: "https://comforting-blini-a4bce3.netlify.app/",
-    github: "https://github.com/Sandipmaury/naukri",
-    title: "Naukri",
-    teckstack: ["HTML", "CSS", "JavaScript"],
-    about:
-      "This platform is for job seekers and hiring managers. It's a group project and was completed by 5 collaborators in 5 days. For building this we've used HTML, CSS, and JavaScript. Due to the time limit, some pages are not done but we've tried our best to complete this project. For more details visit live or code base of this project.",
-    img: "https://i.im.ge/2022/10/04/1fVXir.sfsdfsdfsdf.png",
-  },
 ];
