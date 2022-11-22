@@ -39,7 +39,7 @@ export const ContactMe = () => {
       <Flex justifyContent={"center"} alignItems={"center"} w="60px" h="60px">
         <Link
           target={"_blank"}
-          href="https://api.whatsapp.com/send/?phone=91701109279&text&type=phone_number&app_absent=0"
+          href="https://api.whatsapp.com/send/?phone=917011096279&text&type=phone_number&app_absent=0"
         >
           <Icon transition={"0.2s"} _hover={hoverEffect} as={BsWhatsapp} />
         </Link>

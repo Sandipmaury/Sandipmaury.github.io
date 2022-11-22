@@ -7,6 +7,24 @@ export const NavLinks = [
 
 export const projetArr = [
   {
+    deployLink: "https://todolist-one-steel.vercel.app/",
+    github: "https://github.com/Sandipmaury/todolist",
+    title: "Todolist",
+    teckstack: [
+      "react",
+      "redux",
+      "react-router-dom",
+      "charka-ui",
+      "express",
+      "mongoose",
+      "mongodb",
+      "json web token",
+    ],
+    about:
+      "Todolist is a project management platform from where users can create and manage their projects. This was an individual project.",
+    img: "https://i.im.ge/2022/11/21/SaLbuc.todolist-dashboard1.png",
+  },
+  {
     deployLink: "https://premium-grade-140.vercel.app/",
     github: "https://github.com/Sandipmaury/premium-grade-140",
     title: "Saasa Meal",
@@ -14,7 +32,7 @@ export const projetArr = [
       "react",
       "redux",
       "react-router-dom",
-      "charka",
+      "charka-ui",
       "express",
       "mongoose",
       "mongodb",
